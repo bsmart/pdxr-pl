@@ -1,0 +1,172 @@
+{
+  "testId" : "1-test-visual-spec-02-organisms-00-global-header.gspec",
+  "name" : "test/visual/spec/02-organisms-00-global-header.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  test/visual/spec/02-organisms-00-global-header.gspec --url http://localhost:3000/patterns/02-organisms-00-global-header/02-organisms-00-global-header.rendered.html --size 432x786 --htmlreport test/visual/report -Dwebdriver.chrome.driver=/usr/local/lib/node_modules/galenframework-cli/node_modules/chromedriver/lib/chromedriver/chromedriver",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: test/visual/spec/02-organisms-00-global-header.gspec included tags: ",
+          "status" : "error",
+          "time" : 1480974112476,
+          "sections" : [ {
+            "name" : "Main section",
+            "place" : {
+              "filePath" : "test/visual/spec/02-organisms-00-global-header.gspec",
+              "lineNumber" : 7
+            },
+            "objects" : [ {
+              "name" : "header",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test/visual/spec/02-organisms-00-global-header.gspec",
+                  "lineNumber" : 9
+                },
+                "name" : "width 100% of viewport/width",
+                "highlight" : [ "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test/visual/spec/02-organisms-00-global-header.gspec",
+                  "lineNumber" : 10
+                },
+                "name" : "height ~64px",
+                "highlight" : [ "header" ]
+              } ]
+            }, {
+              "name" : "logo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test/visual/spec/02-organisms-00-global-header.gspec",
+                  "lineNumber" : 13
+                },
+                "name" : "centered vertically inside header",
+                "highlight" : [ "logo", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test/visual/spec/02-organisms-00-global-header.gspec",
+                  "lineNumber" : 14
+                },
+                "name" : "inside header 16px left",
+                "highlight" : [ "logo", "header" ]
+              } ]
+            }, {
+              "name" : "navToggle",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test/visual/spec/02-organisms-00-global-header.gspec",
+                  "lineNumber" : 17
+                },
+                "name" : "visible",
+                "highlight" : [ "navToggle" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test/visual/spec/02-organisms-00-global-header.gspec",
+                  "lineNumber" : 18
+                },
+                "name" : "centered vertically inside header",
+                "highlight" : [ "navToggle", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test/visual/spec/02-organisms-00-global-header.gspec",
+                  "lineNumber" : 19
+                },
+                "name" : "left-of searchToggle 0px",
+                "highlight" : [ "navToggle", "searchToggle" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test/visual/spec/02-organisms-00-global-header.gspec",
+                  "lineNumber" : 20
+                },
+                "name" : "width ~53px",
+                "highlight" : [ "navToggle" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test/visual/spec/02-organisms-00-global-header.gspec",
+                  "lineNumber" : 21
+                },
+                "name" : "height ~49px",
+                "highlight" : [ "navToggle" ]
+              } ]
+            }, {
+              "name" : "searchToggle",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test/visual/spec/02-organisms-00-global-header.gspec",
+                  "lineNumber" : 24
+                },
+                "name" : "visible",
+                "highlight" : [ "searchToggle" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test/visual/spec/02-organisms-00-global-header.gspec",
+                  "lineNumber" : 25
+                },
+                "name" : "centered vertically inside header",
+                "highlight" : [ "searchToggle", "header" ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "test/visual/spec/02-organisms-00-global-header.gspec",
+                  "lineNumber" : 26
+                },
+                "name" : "inside header 0px right",
+                "errors" : [ "\"searchToggle\" is 16px right instead of 0px" ],
+                "highlight" : [ "searchToggle", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test/visual/spec/02-organisms-00-global-header.gspec",
+                  "lineNumber" : 27
+                },
+                "name" : "width ~53px",
+                "highlight" : [ "searchToggle" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test/visual/spec/02-organisms-00-global-header.gspec",
+                  "lineNumber" : 28
+                },
+                "name" : "height ~49px",
+                "highlight" : [ "searchToggle" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "header" : {
+              "area" : [ 0, 0, 432, 63 ]
+            },
+            "logo" : {
+              "area" : [ 16, 14, 200, 34 ]
+            },
+            "searchToggle" : {
+              "area" : [ 363, 8, 53, 47 ]
+            },
+            "navToggle" : {
+              "area" : [ 310, 8, 53, 47 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1480974110464,
+        "type" : "node"
+      } ],
+      "time" : 1480974104459,
+      "type" : "node"
+    } ]
+  }
+}

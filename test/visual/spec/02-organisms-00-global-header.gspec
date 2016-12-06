@@ -1,0 +1,28 @@
+@objects
+  header        .c-header
+  logo          .c-logo
+  navToggle     .nav-toggle-menu
+  searchToggle  .nav-toggle-search
+
+= Main section =
+  header:
+    width 100% of viewport/width
+    height ~64px
+
+  logo:`
+    centered vertically inside header
+    inside header 16px left
+
+  navToggle:
+    visible
+    centered vertically inside header
+    left-of searchToggle 0px
+    width ~53px
+    height ~49px
+
+  searchToggle:
+    visible
+    centered vertically inside header
+    inside header 0px right
+    width ~53px
+    height ~49px

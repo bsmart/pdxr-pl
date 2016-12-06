@@ -1,0 +1,17 @@
+{
+  "tests" : [ {
+    "name" : "test/visual/spec/02-organisms-00-global-header.gspec",
+    "startedAt" : 1480974104456,
+    "endedAt" : 1480974112681,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 13,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 14
+    },
+    "testId" : "1-test-visual-spec-02-organisms-00-global-header.gspec",
+    "failed" : true,
+    "duration" : 8225
+  } ]
+}

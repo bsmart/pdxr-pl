@@ -11,6 +11,7 @@
       "js" : "./source/js",
       "images" : "./source/images",
       "fonts" : "./source/fonts",
+      "sass" : "./source/sass/",
       "css" : "./source/css/"
     },
     "public" : {
