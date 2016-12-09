@@ -41,6 +41,7 @@ gulp.task('pl-copy:font', function(){
 gulp.task('pl-sass', function(){
   return gulp.src(path.resolve(paths().source.sass, '**/*.scss'))
     .pipe(sass().on('error', sass.logError))
+    .pipe(postcss()),
     .pipe(gulp.dest(path.resolve(paths().source.css)));
 });
 
